@@ -1,0 +1,53 @@
+# # General Jekyll Config
+# highlighter: rouge
+# url: http://rahulchauhan.net
+# lsi: false
+# exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+pretty_style: html_extension
+gems: [jekyll-paginate]
+permalink: /:year/:month/:title
+lsi: false
+markdown: kramdown
+highlighter: rouge
+
+excerpt_separator: <!--more-->
+paginate: 3
+
+
+### content configuration ###
+url: http://rahulchauhan.net
+name: Rahul Chauhan # "Hi, I'm _______"
+email: rahulnitsxr@gmail.com
+tagline: "fun stuff"
+dp: "res/dp.jpg"
+favicon:     "res/favicon.ico"
+touch_icon:  "res/icon.png"
+touch_icon2x:  "res/Icon60-2x.png"
+keywords: "design, android, ios, db, github, drones, databases, iphone, app, voice, alafazam, tool, talks, project, json, server, flying"
+google_analytics_key: UA-49607422-1
+resume: "res/Alaf Azam.pdf"
+
+
+
+
+highlight_color: '#110CA9' #Color for top bar, links, etc
+
+social: #sidebar links, leave blank to ignore
+  github: rahulworld
+  stackoverflow: 3158659
+  facebook: alafazam
+  linkedin: alafazam
+  gplus: u/0/+AlafazamKhan
+  spotify: alafazam
+
