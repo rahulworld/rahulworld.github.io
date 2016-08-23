@@ -4,7 +4,7 @@ title: "First Post"
 tags: [meta, web]
 ---
 
-Hello World this is my web site, alafazam.com .
+Hello World this is my web site, rahulchauhan.net .
 
 ####Who am I?
 
@@ -19,7 +19,7 @@ I also like to make new stuff, this is where I will try to write about it.
 
 ####What college do I study in?
 
-I am in final year of 4 year B.Tech course in Information Technology, at National Institute of Technology Srinagar.
+I am in prefinal year of 4 year B.Tech course in Computer Science & Engineering, at National Institute of Technology Srinagar.
 
 ####What's next?
 
