@@ -8,4 +8,4 @@ tags: [meta, web]
 - Every Student & Faculty have own login account.
 - Facult can uplod result by excel csv (Comma Saperated Value) file in android mobile.
 - Student can sign up by create login id using registration panel.
-- Faculty can't create login id but provide a uniq login id by administration.
+- Faculty can't create login id but provide a uniqe login id by administration.
