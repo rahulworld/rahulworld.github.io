@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Secure Faculty-Student result Portal"
+title: "Secure Faculty-Student App"
 tags: [meta, web]
 ---
 ####
