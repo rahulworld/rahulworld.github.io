@@ -3,6 +3,7 @@ layout: post
 title: "Secure Faculty-Student App"
 tags: [meta, web]
 ---
+
 ####
 - this is android application in which student see your result on android mobile.
 - Every Student & Faculty have own login account.
