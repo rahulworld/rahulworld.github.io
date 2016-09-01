@@ -11,5 +11,6 @@ tags: [meta, web]
 - Student can sign up by create login id using registration panel.
 - Faculty can't create login id but provide a uniqe login id by administration.
 - Result show only uploaded student's list.
+- Group Chat
 
 --[Application Download](https://www.dropbox.com/s/phpgnzdm46nnui0/com.share.sharaz.share.apk?dl=0)
