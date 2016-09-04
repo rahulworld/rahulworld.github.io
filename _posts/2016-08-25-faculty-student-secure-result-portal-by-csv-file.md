@@ -13,4 +13,4 @@ tags: [meta, web]
 - Result show only uploaded student's list.
 - Batch Chatting Group
 
---[Application Download](https://www.dropbox.com/s/phpgnzdm46nnui0/com.share.sharaz.share.apk?dl=0)
+--[Download apk](https://www.dropbox.com/s/phpgnzdm46nnui0/com.share.sharaz.share.apk?dl=0)
