@@ -4,7 +4,7 @@ title: "Graphics Design Project"
 tags: [meta, web]
 ---
 
-##Projects:- Smokey Winter Internship, Techvaganza 2015, Science Convocation.
+##Projects:- Smokey Winter Internship, Techvaganza 2015, Science Convocation, International Nenotechnology Conference, Digital India.
 
 ##graphic_designs:-
 Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers
