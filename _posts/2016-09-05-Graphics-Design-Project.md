@@ -20,16 +20,16 @@ tags: [meta, web]
 ####Using Tools Adobe Photoshop, Adobe Illustrator, Coral Draw
 
 ## Android 
-![rahulworld](https://github.com/rahulworld/graphic_designs/blob/master/Android%20UI/logofeb1.png)
-![rahulworld](https://github.com/rahulworld/graphic_designs/blob/master/Android%20UI/splash2feb.png)
+![rahulworld](/assets/image/logofeb1.png)
+![rahulworld](/assets/image/splash2feb.png)
 
 ##Logo
 
-![rahulworld](https://github.com/rahulworld/graphic_designs/blob/master/Android%20UI/IMG-20150823-WA0001.png)
-![rahulworld](https://github.com/rahulworld/graphic_designs/blob/master/Logo/r14.jpg)
+![rahulworld](/assets/image/IMG-20150823-WA0001.png)
+![rahulworld](/assets/image/r14.jpg)
 
 
 
 ## Poster
 
-![rahulworld](https://github.com/rahulworld/graphic_designs/blob/master/Posters/digi4.png)
+![rahulworld](/assets/image/digi4.png)
