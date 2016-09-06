@@ -4,21 +4,12 @@ title: "Graphics Design Project"
 tags: [meta, web]
 ---
 
-##Projects
-- Smokey Winter Internship.
-- Techvaganza 2015.
-- Science Convocation.
+##Projects:- Smokey Winter Internship, Techvaganza 2015, Science Convocation.
 
-##graphic_designs
-- Poster
-- Banner
-- Logos
-- Cover Page
-- Android UI
-- Tshirts
-- Headers
+##graphic_designs:-
+Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers
 
-##Using Tools Adobe Photoshop, Adobe Illustrator, Coral Draw
+##Using Tools:- Adobe Photoshop, Adobe Illustrator, Coral Draw
 --[Project Link](https://github.com/rahulworld/graphic_designs)
 
 ##Android 
