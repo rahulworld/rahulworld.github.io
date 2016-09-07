@@ -3,12 +3,12 @@ layout: post
 title: "Graphics Design Project"
 tags: [meta, web]
 ---
-####Projects:- Smokey Winter Internship, Techvaganza 2015, Science Convocation, International Nenotechnology Conference, Digital India.
+####Projects:- Smokey Winter Internship, Techvaganza 2015, Science Convocation, International Nenotechnology Conference, Digital India,.
 
 --[Project Link](https://github.com/rahulworld/graphic_designs)
 
 ####graphic_designs:-
-Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers
+Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers, Flat Design
 
 ###Using Tools:- Adobe Photoshop, Adobe Illustrator, Coral Draw
 
