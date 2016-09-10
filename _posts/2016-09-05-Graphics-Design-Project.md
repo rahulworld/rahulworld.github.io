@@ -9,10 +9,10 @@ Smokey Winter Internship, Techvaganza 2015, Science Convocation, International N
 --[Project Link](https://github.com/rahulworld/graphic_designs)
 
 ####graphic_designs:-
-Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers, Flat Design
+Poster, Banner, Logos, Cover Page, Android UI, Tshirts, Headers, Flat Design.
 
 ###Using Tools:- 
-Adobe Photoshop, Adobe Illustrator, Coral Draw
+Adobe Photoshop, Adobe Illustrator, Coral Draw.
 
 ####Android 
 ![rahulworld](/assets/image/logofeb1.png)
