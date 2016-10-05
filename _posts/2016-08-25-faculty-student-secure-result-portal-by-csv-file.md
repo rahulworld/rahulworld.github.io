@@ -13,5 +13,5 @@ tags: [meta, web]
 - Result show only uploaded student's list.
 - Batch Chatting Group with GCM.
 - Form validation in app.
-- 
+
 --[Download apk](https://www.dropbox.com/s/phpgnzdm46nnui0/com.share.sharaz.share.apk?dl=0)
