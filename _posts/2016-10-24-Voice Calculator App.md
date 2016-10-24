@@ -7,6 +7,7 @@ tags: [meta, web]
 - Android Application.
 - Based on google offline speech.
 - using all operation by speech.
+- offline mode.
 
 app download 
 download source code on github repository.
