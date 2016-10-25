@@ -8,6 +8,7 @@ tags: [meta, web]
 - Based on google offline speech.
 - using all operation by speech.
 - offline mode.
+- Screenshots.
 
 app download 
 download source code on github repository.
