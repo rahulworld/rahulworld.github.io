@@ -11,4 +11,4 @@ tags: [meta, web]
 - Screenshots of android app.
 
 app download 
-download source code on github repository and run on Android Studio.
+download source code on github repository and run on Android Studio and i am more intrested in android project.
