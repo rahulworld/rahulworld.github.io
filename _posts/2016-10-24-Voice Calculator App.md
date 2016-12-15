@@ -9,6 +9,7 @@ tags: [meta, web]
 - using all operation by speech.
 - offline mode.
 - Screenshots of android app.
+download apk
 
 app download 
 download source code on github repository and run on Android Studio and i am more intrested in android project.
