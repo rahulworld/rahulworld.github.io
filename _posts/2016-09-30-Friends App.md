@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Friends"
-tags: [meta, web]
+tags: [meta, android]
 ---
+
+An android application having friend modules.
+<!--more-->
 ##Using:- 
 - Android Application.
 - Google-map based.

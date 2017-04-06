@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "Graphics Design Project"
-tags: [meta, web]
+tags: [meta, design]
 ---
+
+Some sample of graphics design files which is designed through Coral Draw, Adobe Photoshop and Adobe Illustrator.
+<!--more-->
+
 ####Projects:- 
 Smokey Winter Internship, Techvaganza 2015, Science Convocation, International Nenotechnology Conference, Digital India and Conferences.
 

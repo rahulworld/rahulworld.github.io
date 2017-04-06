@@ -3,6 +3,9 @@ layout: post
 title: "Voice-Calci"
 tags: [meta, web]
 ---
+
+An android application based on google speech(input) and calculate voice expression.
+<!--more-->
 ##Using:- 
 - Android Application.
 - Based on google offline speech.
