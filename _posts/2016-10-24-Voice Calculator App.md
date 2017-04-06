@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Voice-Calci"
-tags: [meta, web]
+tags: [meta, android]
 ---
 
 An android application based on google speech(input) and calculate voice expression.
