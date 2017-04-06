@@ -19,17 +19,17 @@ paginate: 3
 
 
 ### content configuration ###
-url: http://alafazam.com
-name: Alaf Azam Khan # "Hi, I'm _______"
-email: alafazam@gmail.com
+url: http://rahulchauhan.net
+name: Rahul Chuahan # "Hi, I'm _______"
+email: rahulnitsxr@gmail.com
 tagline: "fun stuff"
-dp: "res/dp.jpg"
-favicon:     "res/favicon.ico"
-touch_icon:  "res/icon.png"
-touch_icon2x:  "res/Icon60-2x.png"
-keywords: "design, android, ios, db, github, drones, databases, iphone, app, voice, alafazam, tool, talks, project, json, server, flying"
+dp: "logo.jpg"
+favicon:     "favicon.ico"
+touch_icon:  "favicon.png"
+touch_icon2x:  "favicon.png"
+keywords: "design, android, ios, db, github, drones, databases, iphone, app, voice, rahulworld, tool, talks, project, json, server, flying"
 google_analytics_key: UA-49607422-1
-resume: "res/Alaf Azam.pdf"
+# resume: "res/Alaf Azam.pdf"
 
 
 
@@ -37,7 +37,7 @@ resume: "res/Alaf Azam.pdf"
 highlight_color: '#110CA9' #Color for top bar, links, etc
 
 social: #sidebar links, leave blank to ignore
-  github: alafazam
+  github: rahulworld
   stackoverflow: 3158659
   facebook: alafazam
   linkedin: alafazam
