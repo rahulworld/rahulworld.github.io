@@ -6,13 +6,14 @@ safe: false
 
 
 ### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 pretty_style: html_extension
 gems: [jekyll-paginate]
 permalink: /:year/:month/:title
 lsi: false
 markdown: kramdown
 highlighter: rouge
+
 
 excerpt_separator: <!--more-->
 paginate: 3
@@ -23,13 +24,13 @@ url: http://rahulchauhan.net
 name: Rahul Chuahan # "Hi, I'm _______"
 email: rahulnitsxr@gmail.com
 tagline: "fun stuff"
-dp: "logo.jpg"
+dp: "favicon.png"
 favicon:     "favicon.ico"
 touch_icon:  "favicon.png"
 touch_icon2x:  "favicon.png"
 keywords: "design, android, ios, db, github, drones, databases, iphone, app, voice, rahulworld, tool, talks, project, json, server, flying"
-google_analytics_key: UA-49607422-1
-# resume: "res/Alaf Azam.pdf"
+google_analytics_key: UA-84926068-1
+# resume: "res/rahulchauhan.pdf"
 
 
 
@@ -38,9 +39,14 @@ highlight_color: '#110CA9' #Color for top bar, links, etc
 
 social: #sidebar links, leave blank to ignore
   github: rahulworld
-  stackoverflow: 3158659
-  facebook: alafazam
-  linkedin: alafazam
-  gplus: u/0/+AlafazamKhan
-  spotify: alafazam
-
+  #bitbucket: philipj
+  #hacker_news: swanson
+  #stackexchange: 348619
+  stackoverflow: 5436925
+  twitter: chauhanr371
+  facebook: chauhanr371
+  #tumblr: animalygifs
+  linkedin: rahulnit
+  gplus: 116475565471496389513
+  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+  #flickr: johndoe
