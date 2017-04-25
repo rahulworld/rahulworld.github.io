@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Voice-Calci"
+title: "Text Editor"
 tags: [meta, python]
 ---
 
