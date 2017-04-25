@@ -16,7 +16,7 @@ highlighter: rouge
 
 
 excerpt_separator: <!--more-->
-paginate: 3
+paginate: 4
 
 
 ### content configuration ###
