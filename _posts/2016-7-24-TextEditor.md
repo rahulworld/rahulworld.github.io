@@ -12,3 +12,5 @@ An python text editor.
 - Menu Bar.
 - Editable, Manual.
 - Easy features.
+
+--[Project Link](https://github.com/rahulworld/graphic_designs).
