@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Voice-Calci"
+title: "Face-Detection"
 tags: [meta, python]
 ---
 
