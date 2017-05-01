@@ -4,7 +4,7 @@ title: "Face-Detection"
 tags: [meta, python]
 ---
 
-An python application on face detection.
+An python application on face detection using Artificial Intelligence.
 <!--more-->
 ##Using:- 
 - An Python Application.
