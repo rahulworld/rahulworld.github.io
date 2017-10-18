@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Face-Detection"
-tags: [meta, python]
+tags: [meta, blockchain]
 ---
 
 An python application on face detection using Artificial Intelligence.
