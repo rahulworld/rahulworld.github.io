@@ -4,11 +4,12 @@ title: "Face-Detection"
 tags: [meta, blockchain]
 ---
 
-An python application on face detection using Artificial Intelligence.
+A law based application on contract sign using Blockchain.
 <!--more-->
 ##Using:- 
 - Contract based application
 - Blockchain Technology
+- Law based agreement
 
 
 --[Project Link](https://github.com/rahulworld/).
