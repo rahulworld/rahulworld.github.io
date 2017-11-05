@@ -13,7 +13,7 @@ body {
   /*font-family: 'Cinzel Decorative', cursive;*/
   color: #545E6C;
   font-size: 14px;
-  width: 620px;
+  width: 700px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,7 +54,7 @@ p {
 }
 .sidebar-wrapper {
   position: relative;
-  width: 620px;
+  width: 700px;
   margin: 0 auto;
   color: #545E6C;
 }
@@ -106,7 +106,7 @@ p {
 
 .main-wrapper {
   background: #fff;
-  width: 620px;
+  width: 700px;
   padding: 20px;
   overflow: hidden;
 }
