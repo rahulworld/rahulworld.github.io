@@ -67,6 +67,10 @@ p {
   text-align: center;
   color: #545E6C;
 }
+
+.sidebar-wrapper .profile-container a {
+  color: #FFFFFF;
+}
 .sidebar-wrapper .name {
   font-size: 32px;
   font-weight: 900;
