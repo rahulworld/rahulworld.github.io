@@ -69,10 +69,7 @@ p {
 }
 
 .sidebar-wrapper .profile-container a {
-  color: #FFFFFF;
-}
-.sidebar-wrapper .profile-container a:focus {
-  text-decoration: none;
+  color: #545E6C;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
