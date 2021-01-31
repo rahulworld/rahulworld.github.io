@@ -1,0 +1,20 @@
+{
+  "name": "2021-next-js",
+  "homepage": "https://rahulworld.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export && cp -R ./out/ ../",
+    "start": "next start",
+    "copy": "cp -R ./out/ ../"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.19.0"
+  }
+}
