@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && cp -R ./out/ ../",
+    "build": "next build && next export && cp -R ./out/ ../ && cp -R ../_next/ ../nextjs/_next",
     "start": "next start",
     "copy": "cp -R ./out/ ../"
   },

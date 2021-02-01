@@ -26,9 +26,10 @@ const webpack = require('webpack');
 
 const isProd = (process.env.NODE_ENV || 'production') === 'production';
 
-const assetPrefix = isProd ? 'https://rahulworld.github.io/' : '';
+const assetPrefix = isProd ? 'https://rahulworld.github.io/nextjs/' : '';
 
 module.exports = {
+    distDir: 'build',
   images: {
     loader: 'imgix',
     domains: ['react.semantic-ui.com', 'images.unsplash.com'],
