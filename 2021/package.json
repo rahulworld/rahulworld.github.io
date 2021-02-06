@@ -1,5 +1,6 @@
 {
-  "name": "rahulworld-2021",
+  "name": "rahulworld",
+  "homepage": "https://github.com/rahulworld/rahulworld.github.io",
   "version": "0.3.0",
   "private": true,
   "scripts": {
@@ -11,7 +12,12 @@
   "dependencies": {
     "next": "10.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-background-slideshow": "^1.0.4",
+    "react-dom": "17.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.2",
+    "victory-core": "^35.4.6",
+    "victory-pie": "^35.4.6"
   },
   "devDependencies": {
     "webpack": "^5.21.1"

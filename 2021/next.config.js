@@ -37,11 +37,11 @@ module.exports = {
   },
   exportPathMap: () => ({
     '/': { page: '/' },
-    // '/about': { page: '/about' },
-    // '/intro': { page: '/intro' },
-    // '/projects': { page: '/projects' },
-    // '/work': { page: '/work' },
-    // '/contact': { page: '/contact' },
+    '/about': { page: '/about' },
+    '/intro': { page: '/intro' },
+    '/projects': { page: '/projects' },
+    '/work': { page: '/work' },
+    '/contact': { page: '/contact' },
   }),
   assetPrefix: assetPrefix,
   webpack: (config) => {
