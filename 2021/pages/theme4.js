@@ -1,4 +1,3 @@
-import styles from "../styles/theme3.module.css";
 import React, { useRef, useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -19,6 +18,7 @@ import {
 import { VictoryPie } from "victory-pie";
 import { VictoryLabel, VictoryContainer } from "victory-core";
 import BackgroundSlideshow from 'react-background-slideshow';
+import styles from "../styles/Home.module.css";
 import { RESUME_DATA, WEB_SCHEMA, COMMON } from "../src/constants/rahulworld";
 import { IMAGES } from "../src/constants/images";
 // import {isMobile} from '../src/utility';
@@ -42,9 +42,17 @@ const topFloatStyle = {
   zIndex: 20,
 };
 
-const commonCardStyle = {
-    backgroundColor: 'rgba(255, 255, 255, 0.6)',
-};
+const style = (
+  <style>
+    {`
+    @keyframes back-to-docs {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(0.35em); }
+        100% { transform: translateY(0); }
+    }
+  `}
+  </style>
+);
 
 export default function Home(props) {
   const { isMobile, theme, setTheme, screenWidth, screenHeight } = props;
@@ -175,7 +183,7 @@ export default function Home(props) {
       <div className={styles.grid}>
         <Link href="/about">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="red" ribbon>
                 {COMMON.about.title}
               </Label>
@@ -195,7 +203,7 @@ export default function Home(props) {
         </Link>
         <Link href="/work">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="teal" ribbon="right">
                 {COMMON.work.title}
               </Label>
@@ -217,10 +225,28 @@ export default function Home(props) {
         </Link>
         <Link href="/skills">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="red" ribbon>
                 {COMMON.skills.title}
               </Label>
+              {/* <VictoryPie
+                  standalone={false}
+                  // width={400}
+                  height={200}
+                  data={[
+                    { x: 1, y: 120 }, { x: 2, y: 150 }, { x: 3, y: 75 }
+                  ]}
+                  innerRadius={0} labelRadius={100}
+                  style={{ labels: { fontSize: 20, fill: "white" } }}
+                />
+                <VictoryLabel
+                  textAnchor="middle"
+                  style={{ fontSize: 20 }}
+                  x={100} y={100}
+                  text="Pie!"
+                /> */}
+              {/* <svg viewBox="0 0 400 400"> */}
+              {/* <svg height={450}> */}
               <div style={{ width: isMobile ? "100%" : 400 }}>
                 <VictoryPie
                   // width={180}
@@ -242,6 +268,7 @@ export default function Home(props) {
                   labelComponent={<VictoryLabel angle={-20} />}
                 />
               </div>
+              {/* </svg> */}
               <Header textAlign="right" size="medium">
                 {COMMON.skills.next} &rarr;
               </Header>
@@ -250,7 +277,7 @@ export default function Home(props) {
         </Link>
         <Link href="/educations">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="teal" ribbon="right">
                 {COMMON.education.title}
               </Label>
@@ -264,6 +291,7 @@ export default function Home(props) {
               <Header textAlign="right" size="medium">
                 {COMMON.education.description}
               </Header>
+              {/* <div className={styles.discription_bottom_margin_16}>{COMMON.education.description}</div> */}
               <Header textAlign="right" size="medium">
                 {COMMON.education.next} &rarr;
               </Header>
@@ -272,7 +300,7 @@ export default function Home(props) {
         </Link>
         <Link href="/projects">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="red" ribbon>
                 {COMMON.projects.title}
               </Label>
@@ -331,7 +359,7 @@ export default function Home(props) {
         </Link>
         <Link href="/hobbies">
           <a className={styles.segments_margin_bottom}>
-            <Segment raised className={styles.card} style={commonCardStyle}>
+            <Segment raised className={styles.card}>
               <Label as="a" size="big" color="teal" ribbon="right">
                 {COMMON.hobbies.title}
               </Label>
@@ -359,7 +387,7 @@ export default function Home(props) {
         </Link>
       </div>
       <div style={isMobile ? docsButtonStyle : topFloatStyle}>
-        <FloatBar theme={THEMES[0]} setTheme={setTheme} />
+        <FloatBar theme={THEMES[2]} setTheme={setTheme} />
       </div>
     </>
   );
@@ -383,6 +411,17 @@ export default function Home(props) {
             images={RESUME_DATA.profile_background}
             duration={5} transition={2} />
       </main>
+
+      {/* <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{" "}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        </a>
+      </footer> */}
     </div>
   );
 }
