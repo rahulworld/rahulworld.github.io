@@ -603,7 +603,7 @@ export const RESUME_DATA = {
 export const WEB_SCHEMA = {
   pages: {
     home: {
-      title: 'rahulworld || Rahul Chauhan',
+      title: 'rahulworld||Rahul Chauhan',
       description: '',
     },
     about: {
@@ -620,7 +620,7 @@ export const WEB_SCHEMA = {
     },
   },
   common_links: {
-    main: 'https://nextjs.org',
+    main: '/',
   },
   cards: [
     {

@@ -6,6 +6,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow: scroll;
   overflow-x: hidden;
+  background-color: #E6E6E6;
+  /* font-family: monospace; */
+  font-size: 15px;
+  line-height: 1.7;
+  /* background-color: #333333; */
+  /* padding: 25px 50px; */
 }
 
 a {
@@ -20,3 +26,85 @@ a {
 /* p .bottom_margin_16 {
   margin-bottom: 16px;
 } */
+
+.TypistExample a {
+  color: inherit;
+}
+.TypistExample a:hover {
+  background-color: #22BAD9;
+  color: white;
+  text-decoration: none;
+}
+.TypistExample-header {
+  /* margin-top: 5%; */
+  /* margin-bottom: 15%; */
+  width: 100%;
+  text-align: left;
+  font-size: 2em;
+  cursor: pointer;
+  color: #22BAD9;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.TypistExample-message {
+  color: hotpink;
+  /* width: 400px; */
+  font-size: 1.25rem;
+  /* margin: auto; */
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 800px;
+}
+.TypistExample-message .flash {
+  color: #22BAD9;
+  font-weight: bold;
+  text-decoration: underline;
+  animation-name: blinker;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.link_flash {
+  color: #22BAD9;
+  font-weight: bold;
+  text-decoration: underline;
+  animation-name: blinker;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.link-flash {
+  color: #22BAD9;
+  font-weight: bold;
+  text-decoration: underline;
+  animation-name: blinker;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.flash {
+  color: #22BAD9;
+  font-weight: bold;
+  text-decoration: underline;
+  animation-name: blinker;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes back-to-docs {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(0.35em); }
+  100% { transform: translateY(0); }
+}

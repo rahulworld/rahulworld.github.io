@@ -16,50 +16,75 @@ import {
 } from "semantic-ui-react";
 import { THEMES } from "../../src/constants/rahulworld";
 
-const style = (
-  <style>
-    {`
-    @keyframes back-to-docs {
-        0% { transform: translateY(0); }
-        50% { transform: translateY(0.35em); }
-        100% { transform: translateY(0); }
-    }
-  `}
-  </style>
-);
+// const style = (
+//   <style>
+//     {`
+//     @keyframes back-to-docs {
+//         0% { transform: translateY(0); }
+//         50% { transform: translateY(0.35em); }
+//         100% { transform: translateY(0); }
+//     }
+//   `}
+//   </style>
+// );
 
-const FloatBar = ({theme, setTheme = () => {}}) => (
-    <>
-      {style}
-      {theme !== THEMES[0] && (
-        <Link href="/">
-        <Button
-          // as={Link}
-          // to='/layouts'
-          // onClick={() => setTheme(THEMES[0])}
-          // icon="github"
-          icon="left arrow"
-          content="Theme 1"
-          // secondary
-          target="_blank"
-        />
-        </Link>
-      )}
-      {theme !== THEMES[1] && (
-        <Link href="/theme2">
-        <Button
-          // as={Link}
-          to='/theme2'
-          // onClick={() => setTheme(THEMES[1])}
-          // color="teal"
-          color="red"
-          icon="left arrow"
-          content="Theme 2"
-        />
-        </Link>
-      )}
-      {theme !== THEMES[2] && (
-        <Link href="/theme3">
+// const FloatBar = ({ theme, setTheme = () => { } }) => (
+//   <>
+//     {style}
+//     {theme !== THEMES[0] && (
+//       <Link href="/">
+//         <Button
+//           icon="left arrow"
+//           content="Theme 1"
+//           target="_blank"
+//         />
+//       </Link>
+//     )}
+//     {theme !== THEMES[1] && (
+//       <Link href="/theme2">
+//         <Button
+//           to='/theme2'
+//           color="red"
+//           icon="left arrow"
+//           content="Theme 2"
+//         />
+//       </Link>
+//     )}
+//     {theme !== THEMES[2] && (
+//       <Link href="/theme3">
+//         <Button
+//           to='/theme3'
+//           icon="left arrow"
+//           color="teal"
+//           content="Theme 3"
+//           target="_blank"
+//         />
+//       </Link>
+//     )}
+//   </>
+// );
+
+const FloatBar = ({ theme, setTheme = () => { } }) => (
+  <div style={{zIndex: 100}}>
+    <Button
+      // icon="left arrow"
+      content="Contact Me"
+      color="red"
+      target="_blank"
+    />
+
+    <Button
+      // as={Link}
+      to='/theme2'
+      // onClick={() => setTheme(THEMES[1])}
+      // color="teal"
+      color="teal"
+      // icon="left arrow"
+      // content="Download Resume"
+      content="Download"
+    />
+    {/* {theme !== THEMES[2] && (
+      <Link href="/theme3">
         <Button
           // as={Link}
           to='/theme3'
@@ -71,9 +96,9 @@ const FloatBar = ({theme, setTheme = () => {}}) => (
           // secondary
           target="_blank"
         />
-        </Link>
-      )}
-    </>
-  );
+      </Link>
+    )} */}
+  </div>
+);
 
 export default FloatBar;
